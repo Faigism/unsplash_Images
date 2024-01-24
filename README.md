@@ -82,6 +82,8 @@ In order to use the Unsplash API to fetch images for your application, you will 
 - authorization (hint : public authentication)
 - search functionality (hint : search photos)
 
+Api Key: B0uCT9Sis4YnIY-90OQYg6mCZAvVaAhUhQO974ntYnQ
+
 After signing up for an Unsplash account, you will need to locate your API key and the correct URL to use when searching for images using the Unsplash API. This information can be found in the API documentation provided by Unsplash.
 
 #### Test the URL Using Thunder Client VS Code Extension
@@ -129,11 +131,11 @@ Finally, you can add CSS to your application to style the components and provide
 #### Dark Theme Class - Code
 
 ```js
-const body = document.querySelector('body');
-body.classList.toggle('dark-theme', newDarkTheme);
+const body = document.querySelector('body')
+body.classList.toggle('dark-theme', newDarkTheme)
 
 // alternative setup
-document.body.classList.toggle('dark-theme', newDarkTheme);
+document.body.classList.toggle('dark-theme', newDarkTheme)
 ```
 
 const body = document.querySelector('body'); - This line selects the body element of the current document using the document.querySelector() method, which returns the first element that matches the specified selector. In this case, it is selecting the body element.
