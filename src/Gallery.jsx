@@ -20,7 +20,7 @@ const Gallery = () => {
   if (response.isLoading) {
     return (
       <section className="image-container">
-        <h4>Loading...qwe</h4>
+        <h4>Loading...</h4>
       </section>
     )
   }
