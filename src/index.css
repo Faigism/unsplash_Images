@@ -368,6 +368,11 @@ Gallery
   gap: 2rem;
 }
 
+.loading-container {
+  display: flex;
+  align-items: center;
+}
+
 .image-container .img {
   height: 10rem;
 }

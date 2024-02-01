@@ -18,8 +18,8 @@ const Gallery = () => {
 
   if (response.isLoading) {
     return (
-      <section className="image-container">
-        <h4>Loading...</h4>
+      <section className="image-container loading-container">
+        <h4 className="loading"></h4>
       </section>
     )
   }
